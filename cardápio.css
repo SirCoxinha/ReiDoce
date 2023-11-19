@@ -57,15 +57,15 @@ body {
 
 .Tabela {
     background-image: linear-gradient(to right, yellow, orange);
-    width: 80%;
+    width: 95%;
     align-self: center;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 table,
 th,
 td {
-    font-size: 18px;
+    font-size: 30px;
     border: 5px solid rgb(56, 50, 0);
     width: 100%;
     color: rgb(56, 50, 0);
@@ -115,4 +115,19 @@ td {
 
 .pfinal {
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header1 {
+        font-size: 20px;
+    }
+    .header2 {
+        font-size: 20px;
+    }
+    .header3 {
+        font-size: 20px;
+    }
+    .header4 {
+        font-size: 20px;
+    }
 }

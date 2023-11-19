@@ -166,7 +166,7 @@ body {
 .pfinal {
     color: white;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .SuculentaDesc {
         margin: 20px;
         font-size: 1%;

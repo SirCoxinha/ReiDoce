@@ -58,7 +58,7 @@ body {
 .Preço1 {
     position: absolute;
     align-self: center;
-    bottom: 600px;
+    bottom: 400px;
     background-image: linear-gradient(to right, yellow, orange);
     height: 150px;
     width: 80%;
@@ -91,7 +91,7 @@ body {
 .Preço3 {
     position: absolute;
     align-self: center;
-    bottom: 300px;
+    bottom: 240px;
     background-image: linear-gradient(to right, yellow, orange);
     height: 150px;
     width: 80%;

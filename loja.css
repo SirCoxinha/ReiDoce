@@ -1,0 +1,178 @@
+header {
+    background-image: linear-gradient(to right, yellow, orange);
+    width: 100%;
+    border-style: groove;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+*{
+    box-sizing: border-box;
+}
+
+.header1 {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.header2 {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.header3 {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.header4 {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.ReiDoce {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.ReiDoce2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Preço1 {
+    position: absolute;
+    align-self: center;
+    bottom: 600px;
+    background-image: linear-gradient(to right, yellow, orange);
+    height: 150px;
+    width: 80%;
+    border-style: groove;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Suculenta {
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
+.SuculentaDesc {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.ImgSuculenta {
+    position: relative;
+    right: 90;
+    width: 120px;
+    height: 120px;
+    border-style: groove;
+}
+
+.Preço3 {
+    position: absolute;
+    align-self: center;
+    bottom: 300px;
+    background-image: linear-gradient(to right, yellow, orange);
+    height: 150px;
+    width: 80%;
+    border-style: groove;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Orquídea {
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
+.OrquídeaDesc {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.ImgOrquídea{
+    position: relative;
+    right: 90;
+    width: 120px;
+    height: 120px;
+    border-style: groove;
+    margin-right: 20px;
+}
+
+.final {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+
+.Instagram {
+    height: 40px;
+    width: 40px;
+}
+
+.Instagram2 {
+    height: 40px;
+    width: 40px;
+}
+
+.YouTube {
+    height: 40px;
+    width: 40px;
+}
+
+.YouTube2 {
+    height: 40px;
+    width: 40px;
+}
+
+.Twitter {
+    height: 40px;
+    width: 40px;
+}
+
+.Twitter2 {
+    height: 40px;
+    width: 40px;
+}
+
+.pfinal {
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .SuculentaDesc {
+        margin: 20px;
+        font-size: 1%;
+    }
+    .OrquídeaDesc {
+        margin: 20px;
+        font-size: 1%;
+    }
+}
